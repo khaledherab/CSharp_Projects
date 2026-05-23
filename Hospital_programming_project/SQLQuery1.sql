@@ -1,6 +1,0 @@
-﻿ALTER TABLE Patients
-ADD Doc_ID INT NOT NULL;
-
-ALTER TABLE Patients
-ADD CONSTRAINT FK_Patient_Doctor
-FOREIGN KEY (Doc_ID) REFERENCES Doctors(Doc_ID);
